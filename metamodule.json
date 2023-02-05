@@ -1,0 +1,79 @@
+{
+  "metamodule": {
+    "name": "OCR for PDF Invoice",
+    "keywords": [
+      "ocr",
+      "pdf",
+      "generator,converter"
+    ],
+    "type": "api",
+    "version": "1.0.0",
+    "author": "",
+    "license": "",
+    "website": "ocr-pdf.metamodules.org",
+    "git": "https://github.com/meta-modules/ocr-pdf.git",
+    "lifecycle": [
+      "research",
+      "research",
+      "research",
+      "research",
+    ],
+    "research": [
+      "problem",
+      "solution"
+    ],
+    "design": [
+      "input",
+      "output"
+    ],
+    "development": [
+      "function",
+      "test"
+    ],
+    "delivery": [
+      "environment",
+      "config"
+    ]
+  },
+  "problem": {
+    "description": "generate data to excel report about all invoices in selected folder"
+  },
+  "solution": {
+    "description": "convert PDF file to json data over script based on tensorflow"
+  },
+
+  "input": {
+    "type": "file",
+    "format": "pdf",
+    "handle": "path"
+  },
+  "output": {
+    "type": "file",
+    "format": "json",
+    "handle": "path"
+  },
+
+  "function": {
+    "description": "get file as input and generate output json file",
+    "input": "file path to pdf",
+    "output": "file path to generated json"
+  },
+  "test": {
+    "description": "convert PDF file to json data",
+    "command": "pdf2json.sh",
+    "input": "/home/json/input.pdf",
+    "output": "/home/pdf/output.json"
+  },
+
+  "environment": {
+    "nodejs": "17",
+    "mariadb": "5",
+    "docker": "https://hub.docker.com/r/andrewmackrodt/nodejs"
+  },
+  "config": {
+    "username": "test",
+    "path": "/home/test",
+    "data": "storage",
+    "settings": ".config"
+  }
+}
