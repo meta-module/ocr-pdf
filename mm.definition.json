@@ -1,14 +1,16 @@
 {
-  "schema": [
+  "validator": [
     "https://requirements.metamodule.org/1.0.1",
     "https://definition.metamodule.org/1.0.1",
     "https://requirements.metamodule.org/1.0.1"
   ],
-  "requirements": {
+
+  "generator": {
     "implementation": "https://imeplementation.metamodule.org/1.0.1",
     "test": "https://environment.metamodule.org/1.0.1",
     "lifecycle": "https://environment-lifecycle.metamodule.org/1.0.1"
   },
+
   "definition": {
     "name": "OCR for PDF Invoice",
     "keywords": [
@@ -32,4 +34,4 @@
       "https://remote.metamodule.org/1.0.1"
     ]
   }
-},
+}

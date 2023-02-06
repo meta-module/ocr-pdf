@@ -1,11 +1,11 @@
 {
-  "schema": [
+  "validator": [
     "https://requirements.metamodule.org/1.0.1",
     "https://definition.metamodule.org/1.0.1",
     "https://lifecycle.metamodule.org/1.0.1"
   ],
 
-  "requirements": {
+  "generator": {
     "implementation": "https://imeplementation.metamodule.org/1.0.1",
     "test": "https://environment.metamodule.org/1.0.1",
     "lifecycle": "https://environment-lifecycle.metamodule.org/1.0.1"
@@ -22,7 +22,7 @@
     "author": "",
     "license": "",
     "website": "environment.metamodules.org",
-    "git": "https://github.com/meta-modules/ocr-pdf.git",
+    "git": "https://github.com/meta-modules/ocr-pdf.git"
 
   },
 

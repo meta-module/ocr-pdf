@@ -106,3 +106,5 @@ dist
 
 # TernJS port file
 .tern-port
+.mm.cache/1675689124.logs.txt
+.mm.cache/1675689249.logs.txt
