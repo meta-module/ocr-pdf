@@ -1,24 +1,35 @@
 {
-  "schema": "https://requirements.metamodule.org/1.0.1",
-  "name": "OCR for PDF Invoice",
-  "keywords": [
-    "ocr",
-    "pdf",
-    "generator,converter"
+  "schema": [
+    "https://requirements.metamodule.org/1.0.1",
+    "https://definition.metamodule.org/1.0.1",
+    "https://requirements.metamodule.org/1.0.1"
   ],
-  "type": "api",
-  "version": "1.0.0",
-  "author": "",
-  "license": "",
-  "website": "ocr-pdf.metamodules.org",
-  "git": "https://github.com/meta-modules/ocr-pdf.git",
-  "problem": "generate data to excel report about all invoices in selected folder",
-  "solution": "convert PDF file to json data over script based on tensorflow",
-  "implementation": "https://imeplementation.metamodule.org/1.0.1",
-  "environment": "https://environment.metamodule.org/1.0.1",
-  "lifecycle": "https://lifecycle.metamodule.org/1.0.1",
-  "sources": [
-    "https://local.metamodule.org/1.0.1",
-    "https://remote.metamodule.org/1.0.1"
-  ]
-}
+  "requirements": {
+    "implementation": "https://imeplementation.metamodule.org/1.0.1",
+    "test": "https://environment.metamodule.org/1.0.1",
+    "lifecycle": "https://environment-lifecycle.metamodule.org/1.0.1"
+  },
+  "definition": {
+    "name": "OCR for PDF Invoice",
+    "keywords": [
+      "ocr",
+      "pdf",
+      "generator,converter"
+    ],
+    "type": "api",
+    "version": "1.0.0",
+    "author": "",
+    "license": "",
+    "website": "ocr-pdf.metamodules.org",
+    "git": "https://github.com/meta-modules/ocr-pdf.git",
+    "problem": "generate data to excel report about all invoices in selected folder",
+    "solution": "convert PDF file to json data over script based on tensorflow",
+    "implementation": "https://imeplementation.metamodule.org/1.0.1",
+    "environment": "https://environment.metamodule.org/1.0.1",
+    "lifecycle": "https://lifecycle.metamodule.org/1.0.1",
+    "sources": [
+      "https://local.metamodule.org/1.0.1",
+      "https://remote.metamodule.org/1.0.1"
+    ]
+  }
+},

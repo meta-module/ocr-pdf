@@ -1,7 +1,7 @@
 {
   "schema": [
-    "https://require.metamodule.org/1.0.1",
-    "https://define.metamodule.org/1.0.1",
+    "https://requirements.metamodule.org/1.0.1",
+    "https://definition.metamodule.org/1.0.1",
     "https://lifecycle.metamodule.org/1.0.1"
   ],
 
@@ -12,20 +12,18 @@
   },
 
   "definition": {
-    "name": "OCR for PDF Invoice",
-    "keywords": [
-      "ocr",
-      "pdf",
-      "generator,converter"
-    ],
+    "name": "Environment for running tensorflow python application",
+
+    "problem": "generate data to excel report about all invoices in selected folder",
+    "solution": "convert PDF file to json data over script based on tensorflow",
+
     "type": "api",
     "version": "1.0.0",
     "author": "",
     "license": "",
     "website": "environment.metamodules.org",
     "git": "https://github.com/meta-modules/ocr-pdf.git",
-    "problem": "generate data to excel report about all invoices in selected folder",
-    "solution": "convert PDF file to json data over script based on tensorflow"
+
   },
 
   "lifecycle": {
