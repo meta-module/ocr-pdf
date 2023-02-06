@@ -1,14 +1,19 @@
 {
   "schema": "https://local-script-input-output-environment.schema.metamodule.org/1.0.1",
   "input": {
+    "role": "user",
+    "access": "rw",
     "service": "filesystem",
     "path": "/home/json/input.pdf"
   },
   "output": {
+    "role": "user",
     "service": "filesystem",
     "path": "/home/json/output.json"
   },
   "script": {
+    "role": "developer",
+    "access": "rwx",
     "service": "bash",
     "path": "/home/json/input.sh"
   }

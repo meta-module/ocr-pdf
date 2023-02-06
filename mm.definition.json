@@ -14,7 +14,7 @@
   "git": "https://github.com/meta-modules/ocr-pdf.git",
   "problem": "generate data to excel report about all invoices in selected folder",
   "solution": "convert PDF file to json data over script based on tensorflow",
-  "imeplementation": "https://imeplementation.metamodule.org/1.0.1",
+  "implementation": "https://imeplementation.metamodule.org/1.0.1",
   "environment": "https://environment.metamodule.org/1.0.1",
   "lifecycle": "https://lifecycle.metamodule.org/1.0.1",
   "sources": [
