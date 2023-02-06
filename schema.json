@@ -1,0 +1,32 @@
+{
+  "information": {
+    "name": "string",
+    "keywords": "array",
+    "type": "string",
+    "version": "string",
+    "author": "string",
+    "license": "string",
+    "website": "url",
+    "git": "url"
+  },
+  "research": {
+    "problem": "string",
+    "solution": "string"
+  },
+  "design": {
+    "input": "string",
+    "output": "string"
+  },
+  "development": {
+    "function": "string",
+    "test": "string"
+  },
+  "delivering": {
+    "environment": "string",
+    "config": "string"
+  },
+  "monitoring": {
+    "ping": "string",
+    "availability": "string"
+  }
+}
