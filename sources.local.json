@@ -1,0 +1,15 @@
+{
+  "schema": "https://local-script-input-output-environment.schema.metamodule.org/1.0.1",
+  "input": {
+    "service": "filesystem",
+    "path": "/home/json/input.pdf"
+  },
+  "output": {
+    "service": "filesystem",
+    "path": "/home/json/output.json"
+  },
+  "script": {
+    "service": "bash",
+    "path": "/home/json/input.sh"
+  }
+}

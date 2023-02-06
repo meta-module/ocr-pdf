@@ -1,0 +1,14 @@
+{
+  "workflow": {
+    "team": [
+      "devops",
+      "tester"
+    ],
+    "task": [
+      "feature",
+      "bug",
+      "merging",
+      "splitting"
+    ]
+  }
+}

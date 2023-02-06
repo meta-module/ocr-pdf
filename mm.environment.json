@@ -1,0 +1,18 @@
+{
+  "schema": "https://environment.metamodule.org/1.0.1",
+  "environment": {
+    "nodejs": "17",
+    "mariadb": "5",
+    "docker": "https://hub.docker.com/r/andrewmackrodt/nodejs"
+  },
+  "config": {
+    "username": "test",
+    "path": "/home/test",
+    "data": "storage",
+    "settings": ".config"
+  },
+  "monitoring": {
+    "latency": "1ms",
+    "availability": "90%"
+  }
+}

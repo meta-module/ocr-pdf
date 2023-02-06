@@ -1,0 +1,25 @@
+{
+  "schema": "https://lifecycle.schema.metamodule.org/1.0.1",
+  "lifecycle": {
+    "research": [
+      "problem",
+      "solution"
+    ],
+    "design": [
+      "input",
+      "output"
+    ],
+    "development": [
+      "function",
+      "test"
+    ],
+    "delivering": [
+      "environment",
+      "config"
+    ],
+    "monitoring": [
+      "latency",
+      "availability"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "https://remote.schema.metamodule.org/1.0.1",
+  "remote": [
+    {
+      "name": "schema",
+      "url": "http://schema.metamodule.org/1.0.1"
+    },
+    {
+      "name": "documentation",
+      "protocol": "http",
+      "url": "ocr-pdf.metamodules.org"
+    },
+    {
+      "name":"subversion",
+      "type": "git",
+      "url": "https://github.com/meta-modules/ocr-pdf.git"
+    },
+    {
+      "name":"subversion",
+      "protocol": "git",
+      "url": "https://github.com/meta-modules/ocr-pdf.git"
+    },
+    {
+      "name":"docker for test environment",
+      "protocol": "http",
+      "url": "https://hub.docker.com/r/andrewmackrodt/nodejs"
+    },
+    {
+      "name":"docker for remote environment",
+      "protocol": "http",
+      "url": "https://hub.docker.com/r/andrewmackrodt/nodejs"
+    },
+    {
+      "name":"docker for production",
+      "protocol": "http",
+      "url": "https://hub.docker.com/r/andrewmackrodt/nodejs"
+    }
+  ]
+}

@@ -1,19 +1,5 @@
 {
-  "information": {
-    "schema": "http://schema.metamodule.org/1.0.1.json",
-    "name": "OCR for PDF Invoice",
-    "keywords": [
-      "ocr",
-      "pdf",
-      "generator,converter"
-    ],
-    "type": "api",
-    "version": "1.0.0",
-    "author": "",
-    "license": "",
-    "website": "ocr-pdf.metamodules.org",
-    "git": "https://github.com/meta-modules/ocr-pdf.git"
-  },
+  "schema": "https://requirements.metamodule.org/1.0.1",
   "problem": {
     "description": "generate data to excel report about all invoices in selected folder"
   },
@@ -52,9 +38,8 @@
     "data": "storage",
     "settings": ".config"
   },
-  "ping": {
-  },
-  "avaliability": {
+  "monitoring": {
+    "latency": "1ms",
+    "availability": "90%"
   }
-}
 }
